@@ -1,6 +1,6 @@
 ---
 - name: install a httpd service
-  apt: name=httpd state=installed
+  apt: name=ntp state=installed
 
 - name: start the ntp server
-  service: name=httpd state=started 
+  service: name=ntp state=started 
